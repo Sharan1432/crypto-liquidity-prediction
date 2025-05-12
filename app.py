@@ -4,8 +4,8 @@ import joblib
 import numpy as np
 
 # Load model and scaler
-model = joblib.load("rf_model.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load(r"C:\Users\swamy\Desktop\Crypto_Liquidity_Submission\RandomForest_Model_Save_Load.ipynb")
+scaler = joblib.load(r"C:\Users\swamy\Desktop\Crypto_Liquidity_Submission\Scaler_Save_Load.ipynb")
 
 st.title("Cryptocurrency Liquidity Prediction")
 
